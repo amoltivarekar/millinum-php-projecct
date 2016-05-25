@@ -1,0 +1,531 @@
+<html>
+	<head>
+		<title>
+			sales-non-vat
+		</title>
+		<link rel="stylesheet" href="css/sale2.css" />
+		<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;" />
+		<script type="text/javascript" language="javascript">
+			var num1,num2,num4,num5,num7,num8,num10,num11,num13,num14,num16,num17,num19,num20,
+			num22,num23,num25,num26,num28,num29;
+			
+			function abcd()
+			{
+				
+				num1=parseFloat(document.getElementById('a').value);
+				num2=parseFloat(document.getElementById('b').value);
+				no1=document.getElementById('d').value= num1*num2;
+				
+			}
+			function efgh()
+			{
+				num4=parseFloat(document.getElementById('e').value);
+				num5=parseFloat(document.getElementById('f').value);
+				no2=document.getElementById('h').value= num4*num5;
+			}
+			function ijkl()
+			{
+				num7=parseFloat(document.getElementById('i').value);
+				num8=parseFloat(document.getElementById('j').value);
+				no3=document.getElementById('l').value= num7*num8;
+			}
+			function mnop()
+			{
+				num10=parseFloat(document.getElementById('m').value);
+				num11=parseFloat(document.getElementById('n').value);
+				no4=document.getElementById('p').value= num10*num11;
+			}
+			function qrst()
+			{
+				num13=parseFloat(document.getElementById('q').value);
+				num14=parseFloat(document.getElementById('r').value);
+				no5=document.getElementById('t').value= num13*num14;
+			}
+			function uvwx()
+			{
+				num16=parseFloat(document.getElementById('u').value);
+				num17=parseFloat(document.getElementById('v').value);
+				no6=document.getElementById('x').value= num16*num17;
+			}
+			function yzyz()
+			{
+				num19=parseFloat(document.getElementById('y').value);
+				num20=parseFloat(document.getElementById('z').value);
+				no7=document.getElementById('z1').value= num19*num20;
+			}
+			function newDemo()
+			{
+				num22=parseFloat(document.getElementById('id1').value);
+				num23=parseFloat(document.getElementById('id2').value);
+				no8=document.getElementById('id4').value= num22*num23;
+			}
+			function cdcd()
+			{
+				num25=parseFloat(document.getElementById('c1').value);
+				num26=parseFloat(document.getElementById('d1').value);
+				no9=document.getElementById('d_1').value= num25*num26;
+			}
+			function efef()
+			{
+				num28=parseFloat(document.getElementById('e1').value);
+				num29=parseFloat(document.getElementById('f1').value);
+				no10=document.getElementById('f_1').value= num28*num29;
+			}
+			function identy1()
+			{
+				document.getElementById('id10').value =Math.round(no1);	
+			}
+			function identy2()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2);	
+			}
+			function identy3()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3);
+			}
+			function identy4()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4);	
+			}
+			function identy5()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4+no5);	
+			}
+			function identy6()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4+no5+no6);
+			}
+			function identy7()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4+no5+no6+no7);		
+			}
+			function identy8()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4+no5+no6+no7+no8);
+			}
+			function identy9()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4+no5+no6+no7+no8+no9);
+			}
+			function identy10()
+			{
+				document.getElementById('id10').value =Math.round(no1+no2+no3+no4+no5+no6+no7+no8+no9+no10);
+			}                                          	
+			function painding()
+			{
+				num35=parseInt(document.getElementById('id10').value);
+				num36=parseInt(document.getElementById('id11').value);
+				document.getElementById('id12').value=num35-num36;
+			}
+		
+		</script>
+	</head>
+	<body bgcolor="white">
+		<br>	
+		<section>
+			<font class="font3">Sale-non-vat</font>
+			<div >
+				<font class="font2">11/22, R.k Nagar,s.v Road,Khar(West) Mumbai-400052</font><br>
+				<font class="font2">Dealers In:Computer&Laptop Accessories</font>
+			</div>
+		<dropdown style="position:fixed; top:0px; left:0px;">
+		<input id="toggle2" type="checkbox">
+		<label for="toggle2" class="animate">
+			Menu
+				<i class="fa fa-list float-right"></i>
+		</label>
+		<ul class="animate">
+			<li class="animate" onclick="window.location='firstpage.html'">
+				Home
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='sales1.html'">
+				sale-vat
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='purchase.html'">
+				Purchase
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate"onclick="window.location='cheque.html'">
+				Cheque
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='expense.html'">
+				Expense
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='ledger.php'">
+				ledger
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='CustomerDatabase.php'">
+				Customer DB
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='PurchaseDatabase.php'" >
+				Purchase DB
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='ChequeDatabase.php'">
+				Company Cheque DB
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='CstChequeDatabase.php'">
+				Customer Cheque DB
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='ExpenseDatabase.php'">
+				Expense DB
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='InvoiceDatabase.php'">
+				Invoice DB
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='product.php'">
+				product ID
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+		</ul>
+	</dropdown><br>
+			
+			<form action="php_sale2.php">
+			<div class="textinfo">
+				<br>
+				<div class="pad">
+					<table width="100%">
+						<table width="100%">
+							<tr>
+								<td>
+									<b>COMPANY NAME</b>
+								</td>
+								<td>
+									<input type="text" class="textsize" placeholder="    Company name" name="comp_name">
+								</td>
+							</tr>
+							<tr>
+							<td>
+								<b>NAME</b>
+							</td>
+							<td>
+								<input type="text" class="textsize" placeholder="    full name" name="c_name">
+							</td>
+							<td>
+								<b>INVOICE NO.</b>
+							</td>
+							<td>
+								<input type="text" class="textsize" value="   MM-" name="c_invoice">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>DATE</b>
+							</td>
+							<td>
+								<input type="date" class="textsize" name="c_date">
+							</td>
+							<td>
+								<b>REFERENCE</b>
+							</td>
+							<td>
+								<input type="text" class="textsize" placeholder="    Some Name" name="c_refr">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>E-MAIL ID</b>
+							</td>
+							<td>
+								<input type="email" name="c_email" class="textsize"  placeholder="    somename@somedomain.com">
+							</td>
+						
+							<td>
+								<b>VAT-TIN NO.</b>
+							</td>
+							<td>
+								<input type="text" class="textsize" placeholder="    279305209557C w.e.f. 07-04-06" name="c_vatno">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>ADDRESS</b>
+							</td>
+							<td>
+								<textarea rows="4" cols="32" name="c_address" placeholder="  Enter Customer Address......"></textarea>
+							</td>
+							<td>
+								<b>MOB NO.</b>
+							</td>
+							<td>
+								<input type="TEL" name="c_mob" class="textsize" placeholder="    +919845678673">
+							</td>
+						</tr>
+					</table>
+					<hr>
+					<br>
+					<table border="collapse" width="100%" >
+								<tr>
+									<th width="0px">
+										<b>SR.NO</b>
+									</th>
+									<th width="250px">
+										<b>   DESCRIPTION  </b>
+									</th>
+									<th>
+										<b>QTY</b>
+									</th>
+									<th>
+										<b>UNIT PRICE</b>
+									</th>
+									<th>
+										<b>AMOUNT</b>
+									</th>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="a"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="b" onblur="abcd()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="d" value=" " readonly onfocus="identy1()">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="e"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="f" onblur="efgh()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="h" value="" readonly onblur="identy2()"> 
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="i">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="j" onblur="ijkl()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="l" value=""  readonly onblur="identy3()">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="m"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="n" onblur="mnop()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="p" value="" readonly onblur="identy4()">
+									</td>
+								</tr>
+								
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="q"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="r" onblur="qrst()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="t" value="" readonly onblur="identy5()">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="u"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="v" onblur="uvwx()">
+									</td>
+									
+									<td>
+										<input type="text" size="5px" class="width1" id="x" value="" readonly onblur="identy6()">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="y"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="z" onblur="yzyz()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="z1" value="" readonly onblur="identy7()">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="id1"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="id2" onblur="newDemo()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="id4" value="" readonly onblur="identy8()">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="c1"  >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="d1" onblur="cdcd()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="d_1" value="" readonly onblur="identy9()">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<input type="text" size="5px" class="width1" >
+									</td>
+									<td>
+										<input type="text"  size="5px" class="width1">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="e1" >
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="f1" onblur="efef()">
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" id="f_1" value="" readonly onblur="identy10()">
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="3" rowspan="1">
+									<b class="ml" >AMOUNT IN WORDS : </b>
+									<br><input type="text"  class="widthamt" >
+									
+									<td>
+										<b>TOTAL</b>
+									</td>
+									<td>
+										<input type="text" size="5px" class="width1" name="c_total" id="id10"  readonly>
+									</td>
+								</tr>
+								
+							</table>
+							<br>
+							
+							
+							
+							<b>AMOUNT </b><b class="mk">:</b> &nbsp; &nbsp;
+							<b>PAID</b><input type="text" name="rdb1" class="ml1" id="id11" onblur="painding()">&nbsp; &nbsp;
+							<b>PAINDING</b><input type="text" name="rdb1" class="ml1" id="id12" readonly>
+							<hr>
+							<div>
+								<table width="100%">
+									<tr>
+										<td>
+											<b>PAYMENT</b> &nbsp; <b>:</b><input type="radio" name="radio1" value="cash" class="ml"><b>CASH</b> <input type="radio" name="radio1" value="cheque" class="ml"><b>CHEQUE</b><input type="radio" name="radio1" value="E-pay" class="ml"> <b>E-PAY.</b>
+										</td>
+										<td>
+											<b>VAT-TIN NO.</b> &nbsp;<input type="text" width="100%" value="12345">
+										</td>
+									<tr>
+									<tr>
+										<td>
+											<b>CHEQUE NO.</b> &nbsp; <input type="text" width="100%" class="text2" placeholder="    Cheque No." name="c_chequeno"> &nbsp;&nbsp;&nbsp;&nbsp; <b>DATE</b> &nbsp;<input type="date" width="100%">
+										</td>
+										<td>
+											<b>CST-TIN NO.</b> &nbsp;<input type="text" width="100%" value="12345">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<b>BANK NAME</b> &nbsp; <input type="text" width="100%" class="text5" placeholder="    Bank Name" name="c_bkname">
+										</td>
+									</tr>
+									<br>
+									<tr>
+										<td>
+											<b>RECEIVING</b> &nbsp; <b>SIGNATURE</b> <b>:</b> __________________
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<b>RECEIVING</b> &nbsp; <b>NAME</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>:</b> __________________
+										</td>
+									</tr>
+								</table>
+							</div>
+							<hr>
+							<br>
+							<div class="center">
+								<input type="submit" name="submitButton" value="save" class="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="reset" name="resetButton" value="reset" class="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="button" name="printButton" value="print" class="button">
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			<hr>
+			<br><br><br><br>
+		</section>
+	</body>
+</html>

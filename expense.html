@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title>
+			expense
+		</title>
+		<link rel="stylesheet" href="css/expense.css" />
+	</head>
+	<body >
+		<br><br><br>
+		<section>
+			<font class="font3">Expense</font>
+			<dropdown style="position:fixed; top:0px; left:0px;">
+		<input id="toggle2" type="checkbox">
+		<label for="toggle2" class="animate">
+			Menu
+				<i class="fa fa-list float-right"></i>
+		</label>
+		<ul class="animate">
+			<li class="animate" onclick="window.location='firstpage.html'">
+				Home
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='sales1.html'">
+				sale-vat
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='sales2.html'">
+				sale-non-vat
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='purchase.html'">
+				Purchase
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate"onclick="window.location='cheque.html'">
+				Cheque
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='ledger.php'">
+				ledger
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='CustomerDatabase.php'">
+				Customer DB
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='PurchaseDatabase.php'" >
+				Purchase DB
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='ChequeDatabase.php'">
+				Company Cheque DB
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='CstChequeDatabase.php'">
+				Customer Cheque DB
+				<i class="fa fa-code float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='ExpenseDatabase.php'">
+				Expense DB
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='InvoiceDatabase.php'">
+				Invoice DB
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+			<li class="animate" onclick="window.location='product.php'">
+				product ID
+				<i class="fa fa-arrows-alt float-right"></i>
+			</li>
+		</ul>
+	</dropdown>
+			<br><br>
+			<form action="php_expense.php">
+				
+				<div class="textinfo">
+					<div class="pad">
+						<br>
+						<table width="100%">
+							<tr>
+								<td>
+									<b>EMP ID</b>
+								</td>
+								<td>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="text1" name="ex_id" placeholder="    Emp ID">
+								</td>
+								<td>
+									<b>DATE</b>
+								</td>
+								<td>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" class="text1" name="ex_date" >
+								</td>
+							</tr>
+						</table>
+						<br>
+						<table width="100%">
+							<tr>
+								<td>
+									<b>PARTICULARS</b>
+								</td>
+								<td>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="text2" name="ex_par" placeholder="    Particular Name">
+								</td>
+							</tr>
+						</table>
+						
+						<br>
+						<table width="69%" >
+							<tr>
+								<td>
+									<b>PURPOSE</b>
+								</td>
+								<td>
+									<input type="text" class="text1" name="ex_pur" placeholder="    Purpose">
+								</td>
+							</tr>
+						</table>
+						<br>
+						<table width="69%">
+							<tr>
+								<td>
+									<b>DESCRIPTION</b>
+								</td>
+								<td>
+									<input type="text" class="text3" name="ex_des" placeholder="    Description">
+								</td>
+							</tr>
+						</table>
+						<br>
+						<table width="69%">
+							<tr>
+								<td>
+									<b>AMOUNT</b>
+								</td>
+								<td>
+									&nbsp;&nbsp;<input type="text" class="text1" name="ex_amt" placeholder="    Enter Amount" >
+								</td>
+							</tr>
+						</table>
+						<br>
+						<br>
+						<div class="center">
+							<input type="submit" value="save" class="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="reset" value="reset" class="button">
+						</div>
+					</div>
+				</div>
+			</form>
+		</section>	
+	</body>
+</html>
