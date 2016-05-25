@@ -1,0 +1,241 @@
+			.font3
+			{
+				font-family:French Script MT;
+				font-size:110px;
+				color:#0F467D;
+				margin-left:620px;
+				margin-top:0px;
+			}
+			.textinfo
+			{
+				
+				margin-left:24%;
+				margin-right:100px;
+				background-color:#D1D1D1;
+				width:780px;
+				height:300px;
+				border-radius:10px;
+				border:1px solid #ADADAD;
+				background-image:url("images/apple.png");
+				background-attachment:fixed;
+			}
+			.text1
+			{
+				width:417px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text2
+			{
+				width:170px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.padd1
+			{
+				padding-left:130px;
+				padding-top:50px;
+			}
+			.center
+			{
+				text-align:center;
+			}
+			input:focus
+			{
+				border:0.2em solid #0F467D;
+			}
+			body
+			{
+				background-image:url("images/apple_wallpaper-wallpaper-1366x768 - Copy.jpg");
+				background-attachment:fixed;
+				background-repeat: round;
+			}
+			td
+			{
+				color:#33333;
+			}
+			.pad
+			{
+				margin-left:40px;
+				margin-right:40px;
+			}
+			button
+			{
+				width:80px;
+				height:30px;
+				background-color:#D8D8D8;
+				border-radius:7px;
+				box-shadow:2px 4px,2px 2px;
+			}
+			th
+			{
+				background-image:url("images/apple.png");
+				background-attachment:fixed;
+				color:white;
+				height:45px;
+			}
+			tr
+			{
+				color:#666B85;	
+			}
+			td
+			{
+				padding:7px;
+				height:40px;
+				text-align:left;
+			}
+			.padd
+			{
+				padding-left:18%;
+			}
+			th:first-child
+			{
+				border-top-left-radius:8px;
+			}
+			th:last-child
+			{
+				border-top-right-radius:8px;
+			}
+			tr:last-child td:first-child
+			{
+				border-bottom-left-radius:8px;
+			}
+			tr:last-child td:last-child
+			{
+				border-bottom-right-radius:8px;
+			}
+			tr:nth-child(odd) td
+			{
+				background-color:#EBEBEB;
+			}
+			tr:nth-child(even) td
+			{
+				background-color:#FFFFFF;
+			}
+			tr:nth-child(odd):hover td
+			{
+				background-color:#9e9ea2;
+				color:#FFFFFF;
+			}
+			tr:nth-child(even):hover td
+			{
+				background-color:#4E5066;
+				color:#FFFFFF;
+			}
+			.font1
+			{
+				font-family:French Script MT;
+				color:#0F467D;
+				margin-left:580px;
+				margin-top:0px;
+				font-size:60px;
+			}
+			*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+.float-right{
+  float: right;
+}
+.fa{
+ font-size: .8em;
+  line-height: 22px !important;
+}
+dropdown{
+   display: inline-block;
+   margin: 53px 30px; 
+}
+dropdown label
+{
+
+  display: block;
+  width: 200px;
+  background:rgb(255,255,255);
+  padding: 15px 20px;
+
+}
+ dropdown ul li
+ {
+  display: block;
+  width: 200px;
+  background:rgb(255,255,255);
+  padding: 10px 20px;color:#336699; font-family:arial;
+ 
+}
+dropdown label:hover{
+  background:#336699;
+  color: white;
+  cursor: pointer;
+}
+dropdown ul li:hover
+{
+background:#194775;
+  color: white;
+  cursor: pointer;
+  
+ }
+dropdown label{
+border-radius:50%;
+  color: #336699;
+  border-left: 15px solid #336699;
+  border-radius:0 15px 0 0; 
+  position: relative;
+  z-index: 2;
+}
+dropdown input{
+  display: none;
+}
+dropdown input ~ ul{
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  top: -20px;
+  z-index: 1;
+}
+dropdown input:checked + label{
+  background: #336699;
+  color: white;
+
+}
+
+dropdown input:checked ~ ul{
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+$colors: #E74C3C, #0072B5, #2C3E50;
+
+@for $i from 1 through length($colors) {
+  dropdown ul li:nth-child(#{$i}) {
+    
+	border-left: 50px solid nth($colors, $i);
+    .fa{
+      color: nth($colors, $i);
+	  }
+    &:hover {
+        background: nth($colors, $i);
+        color: white;
+      .fa{
+        color: white; 
+      }
+    }
+  }
+}
+.animate
+{
+  -webkit-transition: all .10s;
+  -moz-transition: all .10s;
+  -ms-transition: all .10s;
+  -ms-transition: all .10s;
+  transition: all .10S;  
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden; 
+  -moz-backface-visibility:hidden; 
+  -ms-backface-visibility:hidden;
+}

@@ -1,0 +1,359 @@
+			.font3
+			{
+				font-family:French Script MT;
+				font-size:110px;
+				color:#0F467D;
+				margin-left:590px;
+				margin-top:0px;
+			}
+			
+			.text1
+			{
+				width:80px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text2
+			{
+				width:550px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text9
+			{
+				width:150px;
+				border-radius:4px;
+				background-color:white;
+			}
+			
+			.text3
+			{
+				width:150px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text4
+			{
+				width:120px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text5
+			{
+				width:280px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.center
+			{
+				text-align:center;
+			}
+			input:focus
+			{
+				border:0.2em solid #0F467D;
+			}
+			body
+			{
+				background-image:url("images/apple_wallpaper-wallpaper-1366x768 - Copy.jpg");
+				background-attachment:fixed;
+				background-repeat: round;
+			}
+			td
+			{
+				color:white;
+			}
+			.pad
+			{
+				margin-left:40px;
+				margin-right:40px;	
+			}
+			.button
+			{
+				width:80px;
+				height:30px;
+				background-color:#D8D8D8;
+				border-radius:7px;
+				box-shadow:2px 4px,2px 2px;
+			}
+			.textsize
+			{
+				width:232px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.pad1
+			{
+				margin-left:180px;
+			}
+			.pad2
+			{
+				margin-left:70px;
+			}
+			a
+			{
+				color:white;
+			}
+			.width1
+			{
+				width:100%;
+			}
+			.widthamt
+			{
+				width:450px;
+				margin-left:20px;
+			}
+						.font2
+			{
+				font-family:French Script MT;
+				color:#0F467D;
+				margin-left:9%;
+				margin-top:0px;
+				font-size:30px;
+			}
+			.margin1
+			{
+				margin-left:370px;
+			}
+			.font3
+			{
+				font-family:French Script MT;
+				font-size:110px;
+				color:#0F467D;
+				margin-left:40%;
+				margin-top:0px;
+			}
+			.textinfo
+			{
+				
+				margin-left:270px;
+				margin-right:100px;
+				border:1px solid #ADADAD;
+				width:940px;
+				height:1000px;
+				border-radius:10px;
+				background-image:url("images/apple.png");
+				background-attachment:fixed;
+			}
+			
+			table
+			{
+				border-spacing:7px;
+			}
+			.collapse
+			{
+				border-collapse:collapse;
+			}
+			th
+			{
+				height:20px;
+			}
+			.width1
+			{
+				width:100%;
+			}
+			.text1
+			{
+				width:200px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text1:hover
+			{
+				-webkit-transition:width 3s ease;
+				width:350px;
+			}
+			.text2
+			{
+				width:100px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.text5
+			{
+				width:333px;
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			.center
+			{
+				text-align:center;
+			}
+			input:focus
+			{
+				border:0.2em solid #0F467D;
+			}
+			body
+			{
+				background-image:url("images/apple_wallpaper-wallpaper-1366x768 - Copy.jpg");
+				background-attachment:fixed;
+				background-repeat: round;
+			}
+			td,th,b
+			{
+				color:white;
+			}
+			textarea
+			{
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			input
+			{
+				border-radius:4px;
+				padding-top:3px;
+				padding-bottom:3px;
+				background-color:white;
+			}
+			textarea:focus
+			{
+				border:0.2em solid #0F467D;
+			}
+			.pad
+			{
+				margin-left:50px;
+				margin-right:50px;
+			}
+			.button
+			{
+				width:80px;
+				height:30px;
+				background-color:#D8D8D8;
+				border-radius:7px;
+				box-shadow:2px 4px,2px 2px;
+			}
+			.ml
+			{	
+				margin-left:20px;
+			}
+			.mk
+			{	
+				margin-left:23px;
+			}
+			.widthamt
+			{
+				width:450px;
+				margin-left:20px;
+			}
+			*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+.float-right{
+  float: right;
+}
+.fa{
+ font-size: .8em;
+  line-height: 22px !important;
+}
+dropdown{
+   display: inline-block;
+   margin: 53px 30px; 
+}
+dropdown label
+{
+  display: block;
+  width: 200px;
+  background:rgb(255,255,255);
+  padding: 15px 20px;
+  
+}
+ dropdown ul li
+ {
+  display: block;
+  width: 200px;
+  background:rgb(255,255,255);
+  padding: 10px 20px;color:#336699; font-family:arial;
+ 
+}
+dropdown label:hover{
+  background:#336699;
+  color: white;
+  cursor: pointer;
+}
+dropdown ul li:hover
+{
+background:#194775;
+  color: white;
+  cursor: pointer;
+  
+ }
+dropdown label{
+  color: #336699;
+  border-left: 15px solid #336699;
+  border-radius:0 15px 0 0; 
+  position: relative;
+  z-index: 2;
+}
+dropdown input{
+  display: none;
+}
+dropdown input ~ ul{
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  top: -20px;
+  z-index: 1;
+}
+dropdown input:checked + label{
+  background: #336699;
+  color: white;
+
+}
+
+dropdown input:checked ~ ul{
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+$colors: #E74C3C, #0072B5, #2C3E50;
+
+@for $i from 1 through length($colors) {
+  dropdown ul li:nth-child(#{$i}) {
+    
+	border-left: 50px solid nth($colors, $i);
+    .fa{
+      color: nth($colors, $i);
+	  }
+    &:hover {
+        background: nth($colors, $i);
+        color: white;
+      .fa{
+        color: white; 
+      }
+    }
+  }
+}
+.animate
+{
+  -webkit-transition: all .10s;
+  -moz-transition: all .10s;
+  -ms-transition: all .10s;
+  -ms-transition: all .10s;
+  transition: all .10S;  
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden; 
+  -moz-backface-visibility:hidden; 
+  -ms-backface-visibility:hidden;
+}

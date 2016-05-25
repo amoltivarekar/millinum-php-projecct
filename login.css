@@ -1,0 +1,79 @@
+			#login
+			{
+				padding-top:150px;
+				width:500px;
+				margin:0 auto;
+				margin-top:5px;
+				margin-bottom:2%;
+				transition:opacity 1s;
+				-webkit-transition:opacity 1s;
+				text-align:center;
+			}
+			#login a
+			{
+				width:500px;
+				font-size:150%;
+				font-weight:100;
+				color:white;
+				padding-left:217px;
+				padding-right:217px;
+				padding-top:25px;
+				padding-bottom:25px;
+				border-radius:7px;
+				border:1px solid #246B8F;
+				background-image:url("images/apple.png");
+				background-attachment:fixed;
+				
+			}
+			form
+			{
+				padding:10% 9%;
+				background-color:#f0f0f0;
+				border-radius:10px;
+				border:1px solid #ccc;
+				align:center;
+			}
+			input[type="username"],input[type="password"]
+			{
+				width:80%;
+				padding:5%;
+				background-color:#ffffff;
+				margin-bottom:5%;
+				border-radius:5px;
+				border:1px solid #ccc;
+				color:#246B8F;
+				font-weight:150;
+				font-size:17px;
+			}
+			input[type="submit"]
+			{
+				width:80%;
+				margin-bottom:5%;
+				padding:6%;
+				border-radius:8px;
+				border:1px solid #246B8F;
+				color:white;
+				font-size:115%;
+				font-weight:350;
+				background-image:url("images/apple.png");
+				background-attachment:fixed;
+			}
+			input:focus
+			{
+				border:2px solid #3399cc;
+			}
+			body
+			{
+				background-image:url("images/rotate.jpg");
+				background-attachment:fixed;
+				background-repeat: round;
+			}
+			button
+			{
+				width:80px;
+				height:30px;
+				background-color:#D8D8D8;
+				border-radius:7px;
+				box-shadow:2px 4px,2px 2px;
+			}
+			
